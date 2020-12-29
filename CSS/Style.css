@@ -1,0 +1,148 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  margin: 60px auto 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  color: #dbe2ef;
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  margin: 50px auto ;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px ;
+}
+
+a:hover {
+  color: #EAF6F6 ;
+  font-size: 1.1rem ;
+}
+
+.top {
+  background-color: #E4F9F5;
+  height: 100%;
+  position: relative;
+  padding-top: 100px  ;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 275px;
+  top: 300px;
+}
+
+.mountain {
+  margin-left: auto;
+}
+
+.profile {
+  margin-bottom: 30px;
+}
+
+.profilepic {
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.DS {
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.Dew {
+  /*position: relative;*/
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.page {
+  position: relative;
+  top: 190px;
+  right: 220px;
+  text-decoration: underline;
+}
+
+.page:hover {
+  color: #11999E;
+}
+
+.contact-me {
+  margin-bottom: 40px ;
+}
+
+.bottom-container {
+  background-color: #66BFBF ;
+  padding: 30px ;
+  margin-top: 80px ;
+}
+
+.contact-message {
+  margin: 20px auto 50px ;
+}
+.btn {
+     padding: 8px;
+     font-size: 16px;
+     font-family: 'Merriweather', serif;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #11cdd4;
+     color: #ffffff;
+     border-style: solid;
+     border-radius: 16px;
+     box-shadow: 0 0 5px rgba(66,66,66,.75);
+     text-shadow: 0 0 5px rgba(66,66,66,.75);
+     margin: 200px auto ;
+}
+
+.btn:hover {
+  background-color: #30E3CB ;
+}
+
+.copyright {
+  color: #EAF6F6 ;
+  font-size: 0.8rem ;
+  padding: 15px 0 ;
+}
